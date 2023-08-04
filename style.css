@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 740px;
+    background-color: aquamarine;
+    
+}
+.container{
+    width: 100%;
+    height: 80px;
+    border: 1px solid orangered;
+    display: flex;
+}
+.extra{
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.logo h3{
+    font-size: 18px;
+    font-weight: 200;
+}
+.md{
+    width: 50%;
+    height: 80px;
+    
+}
+.md ul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.container1{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(247, 88, 31);
+    color: white;
+}
+.one{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.one h5{
+    font-size: 12px;
+}
+.two{
+    width: 100%;
+    height: 280px;
+    
+}
+.two img{
+    width: 100%;
+    height: 280px;
+}
+.three{
+    width: 100%;
+    height: 80px;
+    
+}
+.three h2{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.four{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.NAV{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.container-md{
+    width: 100%;
+    height:420px;
+    display: flex;
+    background-color: black;
+}
+.left{
+    width: 50%;
+    height: 500px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+.text{
+    width: 100%;
+    height:200px ;
+}
+.text h2{
+    font-size: 90px;
+    font-weight: 200;
+}
+.button{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    
+}
+.button button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.button a{
+    color: white;
+    padding-left: 40px;
+}
+.right{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    height: 420px;
+    
+}
+.box img{
+    width: 100%;
+    height: 410px;
+}
+.container3{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+
+}
+.container3-left{
+    width: 46%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container3-text{
+    width: 70%;
+    height: 150px;
+    border: 1px solid white;
+    display: flex;
+}
+.left-img{
+    width: 50%;
+    height:100px;
+    
+}
+.left-img img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+
+}
+.left-text{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.left-text h3{
+    font-size: 20px;
+
+}
+.left-text h6{
+    font-size: 16px;
+
+}
+.box-icon{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    bottom: 90px;
+    left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-icon i{
+    font-size: 25px;
+    color: white;
+
+}
+.container3-right{
+    width: 50%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.right1{
+    width: 100%;
+    height: 100px;
+    border-top:1px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right2{
+    width: 100%;
+    height: 100px;
+    border-top:1px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: 500px;
+    }
+    .container{
+        width: 100%;
+        height: 400px;
+        
+    }
+    .container1{
+        display: none;
+    }
+    .container3{
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+    }
+    .container3-left{
+        display: none;
+    }
+    .text h2{
+        font-size: 50px;
+    }
+    .button{
+        width: 300px;
+    } 
+    .button button{
+        width: 100px;
+        font-size: 12px;
+    }
+    .button a{
+        font-size: 14px;
+    }
+    .right{
+        width: 100%;
+    }
+    .box{
+        width: 50%;
+        height: 250px;
+    }
+    .container3-right{
+        width: 100%;
+        height: 200px;
+        padding-inline: 50px;
+
+    }
+    .md{
+        display: none;
+    }
+    
+}
